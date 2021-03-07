@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Webagency | Agence de communication web Paris</title>
+    <meta name="description" content="Agence de communication web et de création graphique, nous développons vos sites internet de A à Z. Nous sommes spécialiste en UX, UI et référencement naturel :SEO"
+    />
+    <meta name="keywords" content="HTML,CSS,web,design,référencement">
+    <!-- Twitter Card data -->
+    <meta name="twitter:card" content="summary">
+    <!-- Open Graph data -->
+    <meta property="og:title" content="Web agency l'agence de tous vos projets" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="http://www.fittywebdev.pro/web-agency" />
+    <meta property="og:image" content="images/logo.png" />
+    <meta property="og:description" content="Agence de communication web et de création graphique, nous développons vos sites internet de A à Z. Nous sommes spécialiste en UX, UI et référencement naturel :SEO"
+    />
+    <!-- favicon -->
+    <link rel="icon" type="image/x-icon" href="favicon.ico" />
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+    <!-- icones fontawesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
+        crossorigin="anonymous">
+    <!-- notre police Roboto -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700" rel="stylesheet">
+
+    <!-- notre css -->
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+    <header>
+
+        <!-- menu avec logo  -->
+
+        <div class="en-tete-menu">
+            <a href="#" class="menu-logo">
+                <img src="images/logo.png" alt="logo">
+            </a>
+            <nav class="menu">
+
+                <ul class="menu__navigation">
+                    <li class="menu__liste">
+                        <a href="#Acceuil" class="menu__link">Accueil</a>
+                    </li>
+                    <li class="menu__liste">
+                        <a href="#services" class="menu__link">Services</a>
+                    </li>
+                    <li class="menu__liste">
+                        <a href="#projets" class="menu__link">Portfolio</a>
+                    </li>
+                    <li class="menu__liste">
+                        <a href="#contact" class="menu__link">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Acceuil partie slider -->
+
+    <section id="Acceuil">
+        <!-- slider -->
+        <div class="container">
+            <input type="radio" class="nav black" id="image-1" name="fille" checked>
+            <input type="radio" class="nav red" id="image-2" name="fille">
+            <div class="boxes">
+                <div class="liseret"></div>
+                <div class="box black">
+                    <img src="images/slider/bg1.jpg" alt="fille">
+                </div>
+                <div class="slogan">
+                    <h2>
+                        <span>webagency</span> : l'agence de tous
+                        <br> vos projets !</h2>
+                    <p>Vous avez un projet web ? La webagency vous aide à le réaliser !</p>
+                    <a href="#">Plus d'infos</a>
+                </div>
+                <div class="box red">
+                    <img src="images/slider/bg2.jpg" alt="garcon">
+                </div>
+                <div class="labels">
+                    <!-- flêches de défilement -->
+                    <label for="image-1" class="s-index1 b-label">
+                        <i class="fas fa-angle-left gauche"></i>
+                    </label>
+                    <label for="image-2" class="s-index2 c-label">
+                        <i class="fas fa-angle-right droite"></i>
+                    </label>
+                </div>
+            </div>
+            <!-- ligne ombragée sous le slider -->
+            <div class="shadow"></div>
+        </div>
+    </section>
+
+    <!-- partie acceuil pour smartphone sans slider -->
+
+    <div id="acceuil-mobile">
+        <div class="slogan2">
+            <h2>
+                <span>webagency</span> : l'agence de tous
+                <br> vos projets !</h2>
+            <p>Vous avez un projet web ? La webagency vous aide à le réaliser !</p>
+            <a href="#">Plus d'infos</a>
+        </div>
+    </div>
+
+    <!-- partie services -->
+
+    <!-- titre -->
+    <section id="services">
+        <div class="container">
+            <div class="services-titre">
+                <h1>nos services</h1>
+                <div class="underline">
+                    <div class="barre"></div>
+                    <div class="rond"></div>
+                    <div class="barre1"></div>
+                </div>
+                <p>Notre équipe jeune et dynamique vous accompagne lors de la réalisation de votre projet !Notre double compétence
+                    en création de site et en référencement vous assure un accompagnement complet, de la création graphique
+                    a une visibilté optimale sur les moteurs de recherche</p>
+            </div>
+
+            <!-- contenu image et articles -->
+            <div class="services-contenu">
+
+                <img src="images/main-feature.png" class="ordinateur" alt="ordinateur">
+
+                <div class="services-articles">
+                    <article class="articles-item">
+                        <i class="fas fa-chart-line fa-fw"></i>
+                        <div class="articles-contenu">
+                            <h3>UX Design</h3>
+                            <P>L'UX ou experience utilisateur. Nous concevons des sites ergonomiques, fonctionnels pour une
+                                utilisation fluide et optimale !</P>
+                        </div>
+                    </article>
+                    <article class="articles-item">
+                        <i class="fas fa-chart-pie fa-fw"></i>
+                        <div class="articles-contenu">
+                            <h3>UI Design</h3>
+                            <P>L'UI ou l'interface utilisateur. Nos designs sobres et épurés vous garantiront une navigation
+                                intuitive, pratique et facile à prendre en main...plaisir assuré !</P>
+                        </div>
+                    </article>
+                    <article class="articles-item">
+                        <i class="fas fa-cubes fa-fw"></i>
+                        <div class="articles-contenu">
+                            <h3>SEO</h3>
+                            <P>Le référencement ( Search Engine Optimisation) nous permettra d'améliorer la visibilité de votre
+                                site sur les moteurs de recherches, afin d'attirer les clients qui vous recherchent sur google</P>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--  partie projets -->
+
+    <!-- titre et menu partie projet -->
+    <section id="projets">
+        <div class="projets-titre">
+            <h1>nos projets</h1>
+            <div class="underline">
+                <div class="barre"></div>
+                <div class="rond"></div>
+                <div class="barre1"></div>
+            </div>
+            <p>Voici nos dernières réalisations, ils nous ont fait confiance...pourquoi pas vous ? </p>
+        </div>
+        <br>
+        <div class="projets-menu">
+            <ul id="menu-projets">
+                <li id="all-projects">
+                    <a href="#">
+                        <i class="fas fa-caret-down"></i>Tous nos Projets</a>
+                </li>
+                <li id="vitrine">
+                    <a href="#">
+                        <i class="fas fa-caret-down"></i>Site Vitrine</a>
+                </li>
+                <li id="commerce">
+                    <a href="#">
+                        <i class="fas fa-caret-down"></i>Cms wordpress</a>
+                </li>
+                <li id="blog">
+                    <a href="#">
+                        <i class="fas fa-caret-down"></i>Blog</a>
+                </li>
+            </ul>
+        </div>
+        <br>
+        <!-- portfolio partie projet -->
+        <div id="folio">
+            <div class="item">
+                <img src="images/portfolio/01.jpg" alt="photo sympa">
+                <div class="details">
+                    <p>Gai Luron</p>
+                    <p>Boutique article de fete !</p>
+                    <i class="fas fa-eye"></i>
+                </div>
+            </div>
+            <div class="item">
+                <img src="images/portfolio/02.jpg" alt="photo peluche">
+                <div class="details">
+                    <p>Doudou Calin</p>
+                    <p>Doudous et peluches pour vos enfants</p>
+                    <i class="fas fa-eye"></i>
+                </div>
+            </div>
+            <div class="item">
+                <img src="images/portfolio/03.jpg" alt="photo publicitaire">
+                <div class="details">
+                    <p>Agence Marquise</p>
+                    <p>evenementiel, soirées</p>
+                    <i class="fas fa-eye"></i>
+                </div>
+            </div>
+            <div class="item">
+                <img src="images/portfolio/04.jpg" alt="photo plans de construction">
+                <div class="details">
+                    <p>Paul Georges</p>
+                    <p>Architecte</p>
+                    <i class="fas fa-eye"></i>
+                </div>
+            </div>
+            <div class="item">
+                <img src="images/portfolio/05.jpg" alt="photo shopping">
+                <div class="details">
+                    <p>Miss Vee !</p>
+                    <p>Blog lifestyle</p>
+                    <i class="fas fa-eye"></i>
+                </div>
+            </div>
+            <div class="item">
+                <img src="images/portfolio/06.jpg" alt="photo paysage">
+                <div class="details">
+                    <p>Fitty travels</p>
+                    <p>Voyager autrement !</p>
+                    <i class="fas fa-eye"></i>
+                </div>
+            </div>
+            <div class="item">
+                <img src="images/portfolio/07.jpg" alt="photo fusée">
+                <div class="details">
+                    <p>Level UP</p>
+                    <p>Tutoriels et formations en ligne</p>
+                    <i class="fas fa-eye"></i>
+                </div>
+            </div>
+            <div class="item">
+                <img src="images/portfolio/08.jpg" alt="photo article de bureau">
+                <div class="details">
+                    <p>Desk'and'top</p>
+                    <p>Articles de bureau pour homme moderne</p>
+                    <div class="oeil">
+                        <i class="fas fa-eye"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- partie contact -->
+
+    <section>
+        <div id="contact">
+            <!-- integration carte -->
+            <div class="maps">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2867.4280320663242!2d2.1524337149828865!3d44.05386933444804!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12adea99d1c498c3%3A0x2b498a42c9e73985!2s11+Rue+du+Moulin%2C+81400+Carmaux!5e0!3m2!1sfr!2sfr!4v1527340065881"
+                    width="800" height="600" style="border:0" allowfullscreen></iframe>
+            </div>
+            <!-- filtre bleu -->
+            <div id="filtre"></div>
+            <!-- formulaire de contact -->
+            <div id="formulaire">
+                <h2>Contact Info</h2>
+                <p>
+                    <span class="important">WebAgency</span>
+                    <br /> 11 rue du moulin
+                    <br /> 81400 Carmaux
+                    <br /> Tèl : 06 24 35 29 54</p>
+                <form method="post" action="#">
+                    <p>
+                        <input type="text" name="nom" id="nom" class="champs" placeholder="Nom" required />
+                        <br />
+                        <input type="email" name="mail" id="mail" class="champs" placeholder="Email" required />
+                        <br />
+                        <input type="text" name="sujet" id="sujet" class="champs" placeholder="Sujet" required />
+                        <br />
+                        <textarea name="message" id="message" class="champs" placeholder="Votre message..." required></textarea>
+                        <br />
+                        <input type="submit" value="Envoyer" class="bouton_bleu" />
+                    </p>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer -->
+
+    <footer>
+        <ul>
+            <li>
+                <a href="#Acceuil" class="footer__link">Accueil</a>
+            </li>
+            <li>
+                <a href="#services" class="footer__link">Services</a>
+            </li>
+            <li>
+                <a href="#projets" class="footer__link">Portfolio</a>
+            </li>
+            <li>
+                <a href="#contact" class="footer__link">Contact</a>
+            </li>
+        </ul>
+        <p>Réalisé par
+            <a href="#" class="footer__link">Web-agency SAS</a>
+            Copyright &copy; 2018, tous droits réservés.</p>
+        <img src="images/cta2/cta2-img.png" alt="mains en couleur">
+    </footer>
+
+
+</body>
+
+</html>
